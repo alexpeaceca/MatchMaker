@@ -50,3 +50,13 @@
     border-top: 1px solid #eee;
     padding: 15px 0;
   }
+
+
+    
+    body {
+    background: url('../src/assets/bg.png');
+    background-size: cover;
+  
+  }
+ 
+  
