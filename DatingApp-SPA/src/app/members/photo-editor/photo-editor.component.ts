@@ -56,6 +56,12 @@ initalizeUploader() {
       };
 
       this.photos.push(photo);
+      if (photo.isMain) {
+        this.authService.changeMemberPhoto(photo.url);
+        this.authService.currentUser.photoUrl = photo.url;
+        localStorage.setItem('user', JSON.stringify(this.authService.currentUser));
+
+      }
     }
   };
 }
@@ -64,7 +70,9 @@ initalizeUploader() {
       this.currentMain = this.photos.filter(p => p.isMain === true)[0];
       this.currentMain.isMain = false;
       photo.isMain = true;
-      this.getMemberPhotoChange.emit(photo.url);
+      this.authService.changeMemberPhoto(photo.url);
+      this.authService.currentUser.photoUrl = photo.url;
+      localStorage.setItem('user', JSON.stringify(this.authService.currentUser));
     }, error => {
       this.alertify.error(error);
     });
@@ -74,9 +82,9 @@ initalizeUploader() {
     this.alertify.confirm('Are you sure you want to remove this photo?', () => {
       this.userService.deletePhoto(this.authService.decodedToken.nameid, id).subscribe(() => {
         this.photos.splice(this.photos.findIndex(p => p.id === id), 1);
-        this.alertify.success('Photo has been removed.');
+        this.alertify.success('Photo Removed');
       }, error => {
-        this.alertify.error('Failed to remove photo.');
+        this.alertify.error('Failed To Remove Photo');
       });
     });
 
