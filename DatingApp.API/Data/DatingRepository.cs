@@ -14,7 +14,6 @@ namespace DatingApp.API.Data
         public DatingRepository(DataContext context)
         {
             _context = context;
-
         }
         public void Add<T>(T entity) where T : class
         {
@@ -34,9 +33,9 @@ namespace DatingApp.API.Data
 
         public async Task<Photo> GetPhoto(int id)
         {
-           var photo = await _context.Photos.FirstOrDefaultAsync(p => p.Id == id);
+            var photo = await _context.Photos.FirstOrDefaultAsync(p => p.Id == id);
 
-           return photo;
+            return photo;
         }
 
         public async Task<User> GetUser(int id)
@@ -51,12 +50,11 @@ namespace DatingApp.API.Data
             var users = _context.Users.Include(p => p.Photos)
                 .OrderByDescending(u => u.LastActive).AsQueryable();
 
-
             users = users.Where(u => u.Id != userParams.UserId);
 
             users = users.Where(u => u.Gender == userParams.Gender);
 
-            if (userParams.MinAge !=18 || userParams.MaxAge != 99)
+            if (userParams.MinAge != 18 || userParams.MaxAge != 99)
             {
                 var minDob = DateTime.Today.AddYears(-userParams.MaxAge - 1);
                 var maxDob = DateTime.Today.AddYears(-userParams.MinAge);
@@ -68,13 +66,12 @@ namespace DatingApp.API.Data
             {
                 switch (userParams.OrderBy)
                 {
-                    case "created": 
+                    case "created":
                         users = users.OrderByDescending(u => u.Created);
                         break;
                     default:
                         users = users.OrderByDescending(u => u.LastActive);
                         break;
-
                 }
             }
 

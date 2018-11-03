@@ -21,14 +21,13 @@ namespace DatingApp.API.Controllers
         private readonly IMapper _mapper;
 
         public UsersController(IDatingRepository repo, IMapper mapper)
-
         {
             _mapper = mapper;
             _repo = repo;
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetUsers(UserParams userParams)
+        public async Task<IActionResult> GetUsers([FromQuery]UserParams userParams)
         {
             var currentUserId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
 
@@ -41,12 +40,11 @@ namespace DatingApp.API.Controllers
                 userParams.Gender = userFromRepo.Gender == "male" ? "female" : "male";
             }
 
-
             var users = await _repo.GetUsers(userParams);
 
             var usersToReturn = _mapper.Map<IEnumerable<UserForListDto>>(users);
 
-            Response.AddPagination(users.CurrentPage, users.PageSize, 
+            Response.AddPagination(users.CurrentPage, users.PageSize,
                 users.TotalCount, users.TotalPages);
 
             return Ok(usersToReturn);
@@ -77,6 +75,5 @@ namespace DatingApp.API.Controllers
 
             throw new Exception($"Updating user {id} failed on save");
         }
-
     }
 }

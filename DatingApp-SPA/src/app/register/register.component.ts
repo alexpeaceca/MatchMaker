@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { AuthService } from '../_services/auth.service';
 import { AlertifyService } from '../_services/alertify.service';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
@@ -22,14 +22,14 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit() {
     this.bsConfig = {
-     containerClass: 'theme-dark-blue'
-    },
-   this.createRegisterForm();
+      containerClass: 'theme-dark-blue'
+    };
+    this.createRegisterForm();
   }
 
   createRegisterForm() {
     this.registerForm = this.fb.group({
-      gender: ['female'],
+      gender: ['male'],
       username: ['', Validators.required],
       knownAs: ['', Validators.required],
       dateOfBirth: [null, Validators.required],
@@ -48,7 +48,7 @@ export class RegisterComponent implements OnInit {
     if (this.registerForm.valid) {
       this.user = Object.assign({}, this.registerForm.value);
       this.authService.register(this.user).subscribe(() => {
-        this.alertify.success('Registration Success');
+        this.alertify.success('Registration successful');
       }, error => {
         this.alertify.error(error);
       }, () => {
@@ -57,7 +57,6 @@ export class RegisterComponent implements OnInit {
         });
       });
     }
-
   }
 
   cancel() {
