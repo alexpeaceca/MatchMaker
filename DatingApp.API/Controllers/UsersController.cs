@@ -86,23 +86,23 @@ namespace DatingApp.API.Controllers
             var like = await _repo.GetLike(id, recipientId);
 
             if (like != null)
-                return BadRequest("You have already Liked this user");
-
+                return BadRequest("You already like this user");
+            
             if (await _repo.GetUser(recipientId) == null)
                 return NotFound();
-            
+
             like = new Like
-                {
-                    LikerId =id,
-                    LikeeId = recipientId
-                };
+            {
+                LikerId = id,
+                LikeeId = recipientId
+            };
 
-                _repo.Add<Like>(like);
+            _repo.Add<Like>(like);
 
-                if(await _repo.SaveAll())
-                    return Ok();
-                
-                return BadRequest("Failed to Like User");
+            if (await _repo.SaveAll())
+                return Ok();
+            
+            return BadRequest("Failed to like user");
         }
     }
 }
