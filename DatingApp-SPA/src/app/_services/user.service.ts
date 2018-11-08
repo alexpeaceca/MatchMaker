@@ -33,11 +33,11 @@ export class UserService {
     }
 
     if (likesParam === 'Likers') {
-      params = params.append('likers', 'true');
+      params = params.append('Likers', 'true');
     }
 
     if (likesParam === 'Likees') {
-      params = params.append('likees', 'true');
+      params = params.append('Likees', 'true');
     }
 
     return this.http.get<User[]>(this.baseUrl + 'users', { observe: 'response', params})
@@ -69,7 +69,7 @@ export class UserService {
   }
 
   sendLike(id: number, recipientId: number) {
-    return this.http.post(this.baseUrl + 'users/' +  id + '/like/' + recipientId, {});
+    return this.http.post(this.baseUrl + 'users/' + id + '/like/' + recipientId, {});
   }
 
   getMessages(id: number, page?, itemsPerPage?, messageContainer?) {
@@ -97,7 +97,20 @@ export class UserService {
       );
   }
 
-getMessageThread(id: number, recipientId: number) {
+  getMessageThread(id: number, recipientId: number) {
     return this.http.get<Message[]>(this.baseUrl + 'users/' + id + '/messages/thread/' + recipientId);
-}
+  }
+
+  sendMessage(id: number, message: Message) {
+    return this.http.post(this.baseUrl + 'users/' + id + '/messages', message);
+  }
+
+  deleteMessage(id: number, userId: number) {
+    return this.http.post(this.baseUrl + 'users/' + userId + '/messages/' + id, {});
+  }
+
+  markAsRead(userId: number, messageId: number) {
+    this.http.post(this.baseUrl + 'users/' + userId + '/messages/' + messageId + '/read', {})
+      .subscribe();
+  }
 }
