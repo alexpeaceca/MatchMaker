@@ -4,7 +4,10 @@ img.img-thumbnail {
     margin-bottom: 6px;
 
 }
+.card-body {
+    background-color: #F6F6EF;
 
+}
 .nv-file-over {
     border: dotted 2px green;
 }
@@ -12,3 +15,4 @@ img.img-thumbnail {
 input[type=file] {
     color: transparent;
 }
+

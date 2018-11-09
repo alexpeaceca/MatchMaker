@@ -1,4 +1,4 @@
-<div class="text-center mt-3">
+<div class="text-center mt-3 text-muted">
     <h2>Your Matches - {{pagination.totalItems}} Found!</h2>
   </div>
 
@@ -6,13 +6,13 @@
 
     <form class="form-inline" #form="ngForm" (ngSubmit)="loadUsers()" novalidate>
         <div class="form-group">
-          <label for="minAge">From Age</label>
+          <label for="minAge">Ages</label>
           <input type="number" class="form-control ml-1" style="width: 70px" id="minAge"
             [(ngModel)]="userParams.minAge" name="minAge">
         </div>
 
         <div class="form-group px-2">
-          <label for="maxAge">To Age</label>
+          <label for="maxAge">to</label>
           <input type="number" class="form-control ml-1" style="width: 70px" id="maxAge"
              [(ngModel)]="userParams.maxAge" name="maxAge">
         </div>
@@ -42,7 +42,6 @@
       </form>
       <hr>
       <br>
-
 
   <div class="row">
     <div *ngFor="let user of users" class="col-lg-2 col-md-3 col-sm-6">

@@ -30,8 +30,8 @@
             <div class="chat-body">
               <div class="header">
                   <small class="text-muted">
-                      <span class="fa fa-clock-o">{{message.messageSent | timeAgo}}</span>
-                      <span *ngIf="!message.isRead" class="text-danger">(unread)</span>
+                      <span class="fa fa-clock-o"> {{message.messageSent | timeAgo}}</span>
+                      <span *ngIf="!message.isRead" class="text-danger ml-1">(unread)</span>
                       <span *ngIf="message.isRead" class="text-success">(Read {{message.dateRead | timeAgo}})</span>
                     </small>
                 <strong class="primary-font float-right">{{message.senderKnownAs}}</strong>

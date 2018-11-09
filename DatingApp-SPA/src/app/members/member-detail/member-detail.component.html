@@ -1,9 +1,9 @@
-<div class="container mt-4">
+<div class="container mt-4 text-muted">
   <div class="row">
     <h1>{{user.knownAs}}'s Profile</h1>
   </div>
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-4 shadow-sm p-2">
       <div class="card">
         <img class="card-img-top img-thumbnail" src="{{user.photoUrl || '../../../assets/user.png'}}" alt="{{user.knownAs}}">
         <div class="card-body">
@@ -24,15 +24,15 @@
             <p>{{user.created | date: 'mediumDate'}}</p>
           </div>
         </div>
-        <div class="card-footer">
+        <div class="card-footer bg-light">
           <div class="btn-group d-flex">
-            <button class="btn btn-primary w-100">Like</button>
-            <button class="btn btn-success w-100" (click)="selectTab(3)">Message</button>
+            <button class="btn btn-primary w-100"><i class="fa fa-heart mr-3"></i>Like</button>
+            <button class="btn btn-success w-100" (click)="selectTab(3)"><i class="fa fa-envelope mr-3"></i>Message</button>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-sm-8">
+    <div class="col-sm-8 shadow-sm p-2">
       <div class="tab-panel">
         <tabset class="member-tabset" #memberTabs>
           <tab heading="About {{user.knownAs}}">

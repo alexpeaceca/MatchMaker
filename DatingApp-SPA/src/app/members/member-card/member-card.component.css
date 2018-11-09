@@ -11,6 +11,10 @@
 
 }
 
+.card-body {
+    background-color: #F6F6EF;
+}
+
 .card-img-wrapper {
     overflow: hidden;
     position: relative;
@@ -19,6 +23,7 @@
 .btn-toolbar .btn{
     margin-right: 5px;
     margin-left: 5px;
+    
 }
 .btn-toolbar .btn:last-child{
     margin-right: 0px;
