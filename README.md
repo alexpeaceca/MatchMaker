@@ -1,2 +1,2 @@
 # MatchMaker
-Repository for FullStack DatingApp Built from Scratch
+Repository for Full Stack DatingApp Built from Scratch
