@@ -12,7 +12,7 @@ Repository for Full Stack Social Networking Web Application Built from Scratch.
 
 Capstone Project from 100 hour Full-Stack Intensive Workshop.
 
-Start to Finish, every line of code was demonstrated, explained, re-created and customized.
+Start to Finish, every line of code was demonstrated with in-depth explaination, re-created and customized.
 
 
 
