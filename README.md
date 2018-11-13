@@ -2,9 +2,58 @@
 Repository for Full Stack DatingApp Built from Scratch
 
 ![008](https://user-images.githubusercontent.com/43225545/48386237-1ff66080-e6a6-11e8-9849-afb2864f1c61.png)
-<br>
-<br>
-<br>
+80 hour Workshop, C#, Angular, WebAPI
+
+Using Postman
+Global Exception Errors
+
+AlertifyJS
+Angular JWT > Third Party Token Management, decode local token to use
+NGX Bootstrap > No jquery
+Bootswatch > 3rd party Themes
+
+
+Routing in Angular
+
+NGX Tabs
+Route Resolvers > preload content before loading route
+
+CanDeactivate Route Guard
+
+NG2-File Uploader
+
+Use Filter and Splice to give use instant feedback
+
+Hook up APi to Cloudinary
+
+Any to Any Component communication
+
+Photo Delete
+
+Reactive Forms,
+Form Controls + Validators, Building Custom Validators
+Validation Feedback
+The Date Problem, 
+
+Custom Cross Browser DatePicker Ngx Bootstrap
+
+Angular Time Ago Pipe Library, 
+
+
+Paging in the API, Paging in the SPA, Filtering in the API / SPA, Sorting API, Filtering SPA
+
+Setup messageing system
+CRUD system
+Inbox, outbox, Unread messages
+Chat function
+Mark as Read function
+Delete Message
+
+
+Fluent API for Likes
+
+Moving Database from SQLDB (development) to MySQL (production)
+
 ![001](https://user-images.githubusercontent.com/43225545/48386167-f0475880-e6a5-11e8-9839-fb74c4a57961.png)
 <br>
 <br>
