@@ -13,9 +13,11 @@ Repository for Full Stack Social Networking Web Application Built from Scratch.
 Capstone Project from 100 hour Full-Stack Intensive Workshop.
 
 Start to Finish, every line of code was demonstrated, explained, re-created and customized.
-<br>
-![space](https://user-images.githubusercontent.com/43225545/48386657-95166580-e6a7-11e8-9652-74401dac02f9.png)
 
+
+
+
+![space](https://user-images.githubusercontent.com/43225545/48386657-95166580-e6a7-11e8-9652-74401dac02f9.png)
 
 ## Features: ##
 
