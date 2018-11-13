@@ -3,7 +3,6 @@ Repository for Full Stack DatingApp Built from Scratch
 
 ![008](https://user-images.githubusercontent.com/43225545/48386237-1ff66080-e6a6-11e8-9849-afb2864f1c61.png)
 <br>
------------------------------------------------------------------------------------------------------------
 <br>
 <br>
 ![001](https://user-images.githubusercontent.com/43225545/48386167-f0475880-e6a5-11e8-9839-fb74c4a57961.png)
