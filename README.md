@@ -3,55 +3,65 @@ Repository for Full Stack DatingApp Built from Scratch
 
 ![008](https://user-images.githubusercontent.com/43225545/48386237-1ff66080-e6a6-11e8-9849-afb2864f1c61.png)
 ![space](https://user-images.githubusercontent.com/43225545/48386657-95166580-e6a7-11e8-9652-74401dac02f9.png)
-80 hour Workshop, C#, Angular, WebAPI
+Match Maker Web App
 
-Using Postman
-Global Exception Errors
+Environment:
+Angular v6, .Net Core 2.1 and Bootstrap 4
 
-AlertifyJS
-Angular JWT > Third Party Token Management, decode local token to use
-NGX Bootstrap > No jquery
-Bootswatch > 3rd party Themes
+Capstone Project from 100 hour Full-Stack Intensive Workshop, 
+
+Start to Finish, every line of code was demonstrated, explained, recreated and customized.
 
 
-Routing in Angular
+Features:
+
+ASP.NET Core WebAPI and Angular app using the DotNet CLI and the Angular CLI.
+
+Client side login and register function for the Angular application.
+
+Authentication using JWT Authentication tokens
+
+Error Handling in the API and the SPA, Global Exception Errors
+
+Integrated 3rd party components to API and SPA
+
+Display notifications in Angular via AlertifyJS
+
+Bootswatch 3rd party Themes, Customized Theme
 
 NGX Tabs
-Route Resolvers > preload content before loading route
+
+Routing for the Angular application and securing routes.
 
 CanDeactivate Route Guard
 
-NG2-File Uploader
+Route Resolvers, pre-load content before loading route
 
-Use Filter and Splice to give use instant feedback
+Automapper in ASP.NET Core
 
-Hook up APi to Cloudinary
+Built UI using Bootstrap 4
+
+Custom Cross Browser DatePicker Ngx-Bootstrap
+
+Custom Photo Upload functionality as well as a photo gallery in Angular
+
+Drag and drop photo upload integrating into a 3rd Party cloud storage platform, Cloudinary
+
+Angular Template forms and Reactive forms and validation
+
+Paging, Sorting and Filtering
 
 Any to Any Component communication
 
-Photo Delete
+Reactive Forms, Form Control and Validators, Custom Validators, Validation Feedback
 
-Reactive Forms,
-Form Controls + Validators, Building Custom Validators
-Validation Feedback
-The Date Problem, 
-
-Custom Cross Browser DatePicker Ngx Bootstrap
-
-Angular Time Ago Pipe Library, 
-
-
-Paging in the API, Paging in the SPA, Filtering in the API / SPA, Sorting API, Filtering SPA
-
-Setup messageing system
-CRUD system
-Inbox, outbox, Unread messages
-Chat function
-Mark as Read function
-Delete Message
-
+Angular Time Ago Pipe Library
 
 Fluent API for Likes
+
+Private Messaging system
+
+Persist data using Entity Framework Core
 
 Moving Database from SQLDB (development) to MySQL (production)
 
