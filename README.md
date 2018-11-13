@@ -27,6 +27,8 @@ Start to finish, end to end, every line of code was demonstrated, explaination i
 
 * Authentication using JWT Authentication tokens
 
+* Token Hash and Salt
+
 * Error Handling in the API and the SPA, Global Exception Errors
 
 * Integrated 3rd party components to API and SPA
