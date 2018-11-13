@@ -6,7 +6,7 @@
 # Match Maker Web App #
 
 Environment:
-## Angular v6, .Net Core 2.1 and Bootstrap 4 ##
+## Angular v6 | .Net Core 2.1 | Bootstrap 4 ##
 
 <br />
 Capstone Project from 100 hour Full-Stack Intensive Workshop, Social Networking Web Application Built from Scratch.
