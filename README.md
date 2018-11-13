@@ -8,11 +8,11 @@
 Environment:
 ## Angular v6, .Net Core 2.1 and Bootstrap 4 ##
 
-Repository for Full Stack Social Networking Web Application Built from Scratch.
 
-Capstone Project from 100 hour Full-Stack Intensive Workshop.
 
-Start to Finish, every line of code was demonstrated with in-depth explaination, re-created and customized.
+Capstone Project from 100 hour Full-Stack Intensive Workshop, Social Networking Web Application Built from Scratch.
+
+Start to finish, every line of code was demonstrated with in-depth explaination, re-created and customized.
 
 
 
