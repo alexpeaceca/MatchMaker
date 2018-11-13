@@ -4,11 +4,11 @@
 ![008](https://user-images.githubusercontent.com/43225545/48386237-1ff66080-e6a6-11e8-9849-afb2864f1c61.png)
 ![space](https://user-images.githubusercontent.com/43225545/48386657-95166580-e6a7-11e8-9652-74401dac02f9.png)
 # Match Maker Web App #
-
+![space](https://user-images.githubusercontent.com/43225545/48386657-95166580-e6a7-11e8-9652-74401dac02f9.png)
 Environment:
 ## Angular v6, .Net Core 2.1 and Bootstrap 4 ##
 
-Repository for Full Stack Social Networking Web Application Built from Scratch
+Repository for Full Stack Social Networking Web Application Built from Scratch.
 
 Capstone Project from 100 hour Full-Stack Intensive Workshop.
 
@@ -18,9 +18,9 @@ Start to Finish, every line of code was demonstrated, explained, recreated and c
 
 ## Features: ##
 
-* ASP.NET Core WebAPI and Angular app using the DotNet CLI and the Angular CLI.
+* ASP.NET Core WebAPI and Angular app using the DotNet CLI and the Angular CLI
 
-* Client side login and register function for the Angular application.
+* Client side login and register function for the Angular application
 
 * Authentication using JWT Authentication tokens
 
@@ -34,7 +34,7 @@ Start to Finish, every line of code was demonstrated, explained, recreated and c
 
 * NGX Tabs
 
-* Routing for the Angular application and securing routes.
+* Routing for the Angular application and securing routes
 
 * CanDeactivate Route Guard
 
