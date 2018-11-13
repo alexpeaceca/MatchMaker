@@ -21,49 +21,49 @@ Features:
 
 * Authentication using JWT Authentication tokens
 
-Error Handling in the API and the SPA, Global Exception Errors
+* Error Handling in the API and the SPA, Global Exception Errors
 
-Integrated 3rd party components to API and SPA
+* Integrated 3rd party components to API and SPA
 
-Display notifications in Angular via AlertifyJS
+* Display notifications in Angular via AlertifyJS
 
-Bootswatch 3rd party Themes, Customized Theme
+* Bootswatch 3rd party Themes, Customized Theme
 
-NGX Tabs
+* NGX Tabs
 
-Routing for the Angular application and securing routes.
+* Routing for the Angular application and securing routes.
 
-CanDeactivate Route Guard
+* CanDeactivate Route Guard
 
-Route Resolvers, pre-load content before loading route
+* Route Resolvers, pre-load content before loading route
 
-Automapper in ASP.NET Core
+* Automapper ASP.NET Core
 
-Built UI using Bootstrap 4
+* UI using Bootstrap 4
 
-Custom Cross Browser DatePicker Ngx-Bootstrap
+* Custom Cross Browser DatePicker NGX-Bootstrap
 
-Custom Photo Upload functionality as well as a photo gallery in Angular
+* Custom Photo Upload functionality as well as a photo gallery in Angular
 
-Drag and drop photo upload integrating into a 3rd Party cloud storage platform, Cloudinary
+* Drag and drop photo upload integrating into a 3rd Party cloud storage platform, (Cloudinary)
 
-Angular Template forms and Reactive forms and validation
+* Angular Template Forms 
 
-Paging, Sorting and Filtering
+* Paging, Sorting and Filtering
 
-Any to Any Component communication
+* Any to Any Component communication
 
-Reactive Forms, Form Control and Validators, Custom Validators, Validation Feedback
+* Reactive Forms, Form Control and Validators, Custom Validators, Validation Feedback
 
-Angular Time Ago Pipe Library
+* Angular Time Ago Pipe Library
 
-Fluent API for Likes
+* Fluent API for "Likes" System
 
-Private Messaging system
+* User to User Private Messaging System
 
-Persist data using Entity Framework Core
+* Persist data using Entity Framework Core
 
-Moving Database from SQLDB (development) to MySQL (production)
+* Moved Database from Sqlite SQLDB (Development) to MySQL (Production)
 
 ![001](https://user-images.githubusercontent.com/43225545/48386167-f0475880-e6a5-11e8-9839-fb74c4a57961.png)
 ![space](https://user-images.githubusercontent.com/43225545/48386657-95166580-e6a7-11e8-9652-74401dac02f9.png)
