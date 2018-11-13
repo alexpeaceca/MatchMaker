@@ -15,11 +15,11 @@ Start to Finish, every line of code was demonstrated, explained, recreated and c
 
 Features:
 
-ASP.NET Core WebAPI and Angular app using the DotNet CLI and the Angular CLI.
+* ASP.NET Core WebAPI and Angular app using the DotNet CLI and the Angular CLI.
 
-Client side login and register function for the Angular application.
+* Client side login and register function for the Angular application.
 
-Authentication using JWT Authentication tokens
+* Authentication using JWT Authentication tokens
 
 Error Handling in the API and the SPA, Global Exception Errors
 
