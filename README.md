@@ -71,6 +71,8 @@ Start to finish, every line of code was demonstrated with in-depth explaination,
 
 * Moved Database from Sqlite SQLDB (Development) to MySQL (Production)
 
+<br />
+
 ![001](https://user-images.githubusercontent.com/43225545/48386167-f0475880-e6a5-11e8-9839-fb74c4a57961.png)
 ![space](https://user-images.githubusercontent.com/43225545/48386657-95166580-e6a7-11e8-9652-74401dac02f9.png)
 ![002](https://user-images.githubusercontent.com/43225545/48386180-fe957480-e6a5-11e8-8f21-eae63e83b054.png)
