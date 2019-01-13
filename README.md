@@ -21,7 +21,7 @@ Start to finish, end to end, every line of code was demonstrated, explained in d
 
 ## Features: ##
 
-* ASP.NET Core WebAPI and Angular app using the DotNet CLI and the Angular CLI
+* ASP.NET Core WebAPI and Angular App using the DotNet CLI and the Angular CLI
 
 * Client side login and register function for the Angular application
 
