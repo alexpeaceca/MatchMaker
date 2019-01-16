@@ -12,7 +12,7 @@ Environment:
 Capstone Project from 100+ Hour Full-Stack Intensive Workshop, Social Network Web App Built from Scratch.
 
 
-Start to finish, end to end, every line of code was demonstrated, explained in detail, re-created, and customized.
+Start to finish, end to end, each line of code was demonstrated, explained in detail, re-created, and customized.
 <br />
 <br />
 <br />
